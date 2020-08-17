@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+}
+p{
+  margin-top: 0;
+}
+
+.top
+{
+  height:100px;
+  width:100px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.mid {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.bottom {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+}

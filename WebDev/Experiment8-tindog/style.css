@@ -1,0 +1,189 @@
+/* title */
+/*Elements*/
+body {
+  font-family: "Nunito";
+}
+
+/*Classes*/
+.container-fluid {
+  padding: 3% 13% 6%;
+}
+
+.navbar {
+  padding: 0;
+  padding-bottom: 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  font-family: "Nunito";
+  font-size: 1.20rem;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.download-btn {
+  margin: 7% 6% 5% 0;
+}
+
+/*IDs*/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  /* height:800px; */
+}
+
+#heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#iphone {
+  width: 60%;
+  padding-left: 50px;
+  transform: rotate(25deg);
+  position: absolute;
+  text-align: right;
+}
+
+@media (max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  #heading {
+    font-size: 2.5rem;
+  }
+
+  #iphone {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+/* Features */
+/* Elements */
+/* Classes */
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+/* Ids */
+#features {
+  /* z-index: 1; */
+  position: relative;
+  background-color: #fff;
+}
+
+/* Testimonials */
+/* Elements */
+/* Classes */
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Ids */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-family: "Nunito";
+  font-weight: bold;
+}
+
+/* press */
+/* Elements */
+/* Classes */
+.press-image {
+  width: 15%;
+  margin: 10px 20px 50px;
+}
+
+/* Ids */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+/* pricing */
+/* Elements */
+/* Classes */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Ids */
+#pricing {
+  font-family: Nunito;
+  font-weight: bold;
+  padding: 100px;
+  text-align: center;
+}
+
+/* cta */
+/* elements */
+/* classes */
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+.cta-download-btn {
+  margin: 3% 1.2% 3%;
+}
+
+/* ids */
+#cta {
+  padding: 7% 18% 3%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+/* footer */
+/* Elements */
+/* Classes */
+.footer-icon {
+  padding: 0 10px 0;
+}
+
+.footer-text {
+  color: #8f8f8f;
+}
+
+/* Ids */
+#footer {
+  padding: 4% 16% 0;
+  text-align: center;
+  background-color: #fff;
+}

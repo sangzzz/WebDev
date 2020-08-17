@@ -1,0 +1,14 @@
+.username{
+  display:block;
+  text-align: left;
+}
+
+.password{
+  display:block;
+}
+
+#login-section{
+  padding:30% 45%;
+  background-color: #bfbfbf;
+  text-align: center;
+}

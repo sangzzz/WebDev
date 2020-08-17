@@ -1,0 +1,21 @@
+<%- include("partials/header") -%>
+
+<h1>Home</h1>
+<p>
+  <%= home %>
+</p>
+
+<% posts.forEach(function(post){ %>
+<a href="/posts/<%= post.postTitle.replace(" ","-") %>" class="post">
+<h1 class="post">
+  <%= post.postTitle %>
+</h1>
+</a>
+<p class="post">
+  <%= post.postData %>
+
+</p>
+  <a href="/posts/<%= post.postTitle.replace(" ","-") %>" class="post">Read More</a>
+<% }); %>
+
+<%- include("partials/footer") -%>

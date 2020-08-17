@@ -1,0 +1,141 @@
+body{
+  /*background-image:url("http://blog.hostbaby.com/wp-content/uploads/2013/07/leaves1400x900-400x257.jpg");
+  background-color: transparent;*/
+  margin: 0;
+  padding:0;
+  text-align: center;
+  font-family: "Montserrat",serif;
+  line-height: 1;
+  color: #40514E;
+}
+p{
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin:50px auto 0 auto;
+  font-family: "Fjalla",serif;
+  color: #66BFBF;
+}
+img{display:inline-block;}
+.topcloud{
+  display: inline-block;
+  position: relative;
+  left: 300px;
+}
+.bottomcloud{
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+}
+.top{
+  background-color: #E4F9F5;
+  padding-top:  100px;
+}
+.profilepic{
+  height:250px;
+  width: 165px;
+  border-radius: 50%;
+}
+.skill-row{
+  width: 38%;
+  margin: 30px auto 30px;
+}
+.skills{
+  font-size: 150%;
+}
+.e1{
+  text-align: left;
+  font-size: 70%;
+}
+.e2{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}.e3{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 0;}
+.mid{
+  margin-top: 20px;
+  line-height: 1.2;
+}
+.profile{
+  width: 50%;
+  margin: 5px auto;
+}
+.greet{
+  color: #66BFBF;
+  font-size: 220%;
+}
+.a1{
+  color:#40514E;
+  font-size: 120%;
+}
+.heading{
+  color: #66BFBF;
+}
+.hr{
+  align: center;
+  width: 70px;
+  border: 7px dotted #EAF6F6;
+  border-style: none none dotted;
+  margin: 70px auto;
+}
+h3{
+  color: #11999E;
+}
+.bottompara{
+  width:50%;
+  margin: 10px auto;
+  font-size: 120%;
+}
+.btn{
+  background-color: #66BFBF;
+  margin:20px;
+  text-align:center;
+  padding:0 20px;
+  line-height:3;
+  border:0;
+  border-radius: 10 px;
+  font-style: bold sans-serif;
+  color:white;
+}
+.bottom{
+  background-color: #66BFBF;
+  margin:0;
+}
+.footer-link{
+  margin:20px 15px;
+  color:#11999E;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 120%;
+}
+.footerpara{
+  margin:0;
+  padding-left: 0;
+  color:#EAF6F6;
+  font-size: 70%
+}
+a:hover{
+  color: darkmagenta;
+}
+/*.e12{
+  text-align: left;
+  line-height: 1.2;
+  font-size: 80%;
+  clear: left;
+}
+.e13{
+  text-align: right;
+  line-height: 1.2;
+  font-size: 80%;
+  clear: right;
+}*/
+/*rem is root em. parent font size doesn't matter*/
